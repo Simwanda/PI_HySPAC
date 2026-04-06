@@ -1,0 +1,8 @@
+FigureName,Caption
+shap_top_features_all_baselines,Comparison of the top-ranked input features across the four ensemble baseline models using mean absolute SHAP values. Pressure- and temperature-related variables are expected to dominate if the learned behavior remains physically consistent.
+pinn_sensitivity_pressure,"One-way sensitivity of the PI-HySPAC model to pressure, obtained by varying pressure while holding the remaining inputs at a reference operating point."
+pinn_sensitivity_temperature,"One-way sensitivity of the PI-HySPAC model to temperature, obtained by varying temperature while holding the remaining inputs at a reference operating point."
+pinn_sensitivity_alclay,"One-way sensitivity of the PI-HySPAC model to alumina/clay ratio, obtained by varying composition while holding the remaining inputs at a reference operating point."
+pinn_surface_pressure_temperature,"Two-dimensional response surface predicted by the PI-HySPAC model as a function of pressure and temperature, with remaining inputs fixed at a reference point."
+parity_iid_all_models,Parity plot comparing observed and predicted hydrogen storage capacities on the IID test set for the four ensemble baselines and the proposed PI-HySPAC model.
+ood_rmse_by_split,"Comparison of model RMSE values under multiple out-of-distribution evaluation settings, including tail and group-based holdout tests."
