@@ -1,0 +1,9 @@
+Reviewer comment,Code modification,Output table
+R1.2 / R2.4,Parameterized P/(P+c) saturation constant and runs P-saturation-reference robustness.,feature_constant_sensitivity
+R1.4 / R2.11,"Compares optimized PINN against smaller 1x16, 1x32, 2x64, and 2x128 networks.",simple_nn_architecture
+R2.2 / R2.9,"Runs ablation of raw features, physics-guided features, and physics-informed loss.",ablation_iid_nn; ablation_ood_nn
+R2.10,Runs tree baselines with raw variables only and compares them with physics-feature tree baselines.,tree_raw_vs_physics
+R2.5,Runs global and one-at-a-time sensitivity analysis of physics-loss weights.,lambda_sensitivity
+R3.1,"Adds classical Langmuir, Freundlich, and Toth isotherm baselines.",classical_isotherms
+R3.3,Runs epsilon robustness across several numerical-stabilizer values.,feature_constant_sensitivity
+R3.4,Adds optional extended baseline HPO stability cell with more Optuna trials and repeated splits.,extended_hpo_stability

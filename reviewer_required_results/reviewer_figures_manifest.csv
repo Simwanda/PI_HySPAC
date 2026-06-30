@@ -1,0 +1,9 @@
+Figure,Reviewer comments addressed,Purpose
+Fig1_ablation_study_RMSE,R2.2; R2.9,Quantifies the effects of features and physics-informed loss.
+Fig2_tree_raw_vs_physics_features_RMSE,R2.10,Compares tree models using raw and physics-guided features.
+Fig3_architecture_comparison_RMSE,R1.4; R2.11,Compares optimized network with smaller architectures.
+Fig4_physics_loss_weight_sensitivity_RMSE,R2.5,Shows sensitivity to physics-loss weights.
+Fig5a_epsilon_robustness_RMSE,R3.3,Tests robustness to epsilon.
+Fig5b_pressure_saturation_constant_RMSE,R1.2; R2.4,Tests robustness to the saturation constant.
+Fig6_isotherm_vs_ml_RMSE,R3.1,Compares isotherm baselines with machine-learning models.
+Fig7_ood_failure_modes_R2_heatmap,R1.3; R2.6; R2.7; R2.8,Shows OOD strengths and failure modes.
